@@ -11,19 +11,22 @@
 #ifndef BASIC_UI_H
 #define BASIC_UI_H
 /********************************** Includes *********************************/
-#include <stdio.h>
-#include <string>
+#include <stddef.h>
 /********************************** Includes *********************************/
 
 /********************************** Defines **********************************/
 
 typedef struct basic_ui
 {
-    void (*display)();
-    void (*clear)();
-    void (*update)();
-    void (*destroy)();
+    void (*clear)(struct basic_ui *self);
+    void (*header)(struct basic_ui *self);
+    void (*menu)(struct basic_ui *self);
+    int (*read_int)(struct basic_ui *self, const char *prompt, int *out_value);
+    void (*message)(struct basic_ui *self, const char *text);
 } basic_ui_t;
+
+void basic_ui_init(basic_ui_t *ui);
+void basic_ui_wait_enter(basic_ui_t *ui);
 
 #endif // BASIC_UI_H
 

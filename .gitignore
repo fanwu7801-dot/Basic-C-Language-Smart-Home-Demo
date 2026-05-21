@@ -51,5 +51,8 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+# Runtime data
+device_data.txt
+
 # debug information files
 *.dwo
