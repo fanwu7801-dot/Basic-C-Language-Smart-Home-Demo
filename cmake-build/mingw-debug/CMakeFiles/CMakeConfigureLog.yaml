@@ -1,0 +1,215 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is Clang, found in:
+        D:/c_porject4/Basic-C-Language-Smart-Home-Demo/cmake-build/mingw-debug/CMakeFiles/3.30.5/CompilerIdC/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/cmake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/c_porject4/Basic-C-Language-Smart-Home-Demo/cmake-build/mingw-debug/CMakeFiles/CMakeScratch/TryCompile-6me1ss"
+      binary: "D:/c_porject4/Basic-C-Language-Smart-Home-Demo/cmake-build/mingw-debug/CMakeFiles/CMakeScratch/TryCompile-6me1ss"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c_porject4/Basic-C-Language-Smart-Home-Demo/cmake-build/mingw-debug/CMakeFiles/CMakeScratch/TryCompile-6me1ss'
+        
+        Run Build Command(s): D:/cmake/bin/cmake.exe -E env VERBOSE=1 D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/bin/mingw32-make.exe -f Makefile cmTC_9d163/fast
+        D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9d163.dir\\build.make CMakeFiles/cmTC_9d163.dir/build
+        mingw32-make[1]: Entering directory 'D:/c_porject4/Basic-C-Language-Smart-Home-Demo/cmake-build/mingw-debug/CMakeFiles/CMakeScratch/TryCompile-6me1ss'
+        Building C object CMakeFiles/cmTC_9d163.dir/CMakeCCompilerABI.c.obj
+        D:\\mingw\\llvm-mingw-20260519-msvcrt-i686\\llvm-mingw-20260519-msvcrt-i686\\bin\\gcc.exe   -v -MD -MT CMakeFiles/cmTC_9d163.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_9d163.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_9d163.dir\\CMakeCCompilerABI.c.obj -c D:\\cmake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c
+        clang version 22.1.6 (https://github.com/llvm/llvm-project.git fc4aad7b5db3fff421df9a9637605b9ca5667881)
+        Target: i686-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/bin
+        Configuration file: D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/bin/i686-w64-windows-gnu.cfg
+         (in-process)
+         "D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/bin/clang-22.exe" -cc1 -triple i686-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -fno-sized-deallocation -fno-use-init-array -target-cpu pentium4 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=D:/c_porject4/Basic-C-Language-Smart-Home-Demo/cmake-build/mingw-debug/CMakeFiles/CMakeScratch/TryCompile-6me1ss -v -fcoverage-compilation-dir=D:/c_porject4/Basic-C-Language-Smart-Home-Demo/cmake-build/mingw-debug/CMakeFiles/CMakeScratch/TryCompile-6me1ss -resource-dir D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22 -dependency-file "CMakeFiles\\\\cmTC_9d163.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_9d163.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/include -internal-isystem D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/include -internal-isystem D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/usr/include -internal-isystem D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/include -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=dwarf -faddrsig -o "CMakeFiles\\\\cmTC_9d163.dir\\\\CMakeCCompilerABI.c.obj" -x c "D:\\\\cmake\\\\share\\\\cmake-3.30\\\\Modules\\\\CMakeCCompilerABI.c"
+        clang -cc1 version 22.1.6 based upon LLVM 22.1.6 default target i686-w64-mingw32
+        ignoring nonexistent directory "D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/include"
+        ignoring nonexistent directory "D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/include
+         D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/include
+        End of search list.
+        Linking C executable cmTC_9d163.exe
+        D:\\cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_9d163.dir\\link.txt --verbose=1
+        D:\\cmake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_9d163.dir/objects.a
+        D:\\mingw\\llvm-mingw-20260519-msvcrt-i686\\llvm-mingw-20260519-msvcrt-i686\\bin\\llvm-ar.exe qc CMakeFiles\\cmTC_9d163.dir/objects.a @CMakeFiles\\cmTC_9d163.dir\\objects1.rsp
+        D:\\mingw\\llvm-mingw-20260519-msvcrt-i686\\llvm-mingw-20260519-msvcrt-i686\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_9d163.dir/objects.a -Wl,--no-whole-archive -o cmTC_9d163.exe -Wl,--out-implib,libcmTC_9d163.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        clang version 22.1.6 (https://github.com/llvm/llvm-project.git fc4aad7b5db3fff421df9a9637605b9ca5667881)
+        Target: i686-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/bin
+        Configuration file: D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/bin/i686-w64-windows-gnu.cfg
+         "D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/bin/ld.lld" -m i386pe -Bdynamic -o cmTC_9d163.exe D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/lib/crt2.o D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/lib/crtbegin.o -LD:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/lib -LD:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/mingw/lib -LD:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib -LD:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/lib/windows -v --whole-archive "CMakeFiles\\\\cmTC_9d163.dir/objects.a" --no-whole-archive --out-implib libcmTC_9d163.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/lib/windows/libclang_rt.builtins-i386.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/lib/windows/libclang_rt.builtins-i386.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/lib/crtend.o
+        LLD 22.1.6 (https://github.com/llvm/llvm-project.git fc4aad7b5db3fff421df9a9637605b9ca5667881) (compatible with GNU linkers)
+        mingw32-make[1]: Leaving directory 'D:/c_porject4/Basic-C-Language-Smart-Home-Demo/cmake-build/mingw-debug/CMakeFiles/CMakeScratch/TryCompile-6me1ss'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "D:/cmake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/include]
+          add: [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/include]
+        end of search list found
+        collapse include dir [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/include] ==> [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/include]
+        collapse include dir [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/include] ==> [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/include]
+        implicit include dirs: [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/include;D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/cmake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'D:/c_porject4/Basic-C-Language-Smart-Home-Demo/cmake-build/mingw-debug/CMakeFiles/CMakeScratch/TryCompile-6me1ss']
+        ignore line: []
+        ignore line: [Run Build Command(s): D:/cmake/bin/cmake.exe -E env VERBOSE=1 D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/bin/mingw32-make.exe -f Makefile cmTC_9d163/fast]
+        ignore line: [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9d163.dir\\build.make CMakeFiles/cmTC_9d163.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/c_porject4/Basic-C-Language-Smart-Home-Demo/cmake-build/mingw-debug/CMakeFiles/CMakeScratch/TryCompile-6me1ss']
+        ignore line: [Building C object CMakeFiles/cmTC_9d163.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [D:\\mingw\\llvm-mingw-20260519-msvcrt-i686\\llvm-mingw-20260519-msvcrt-i686\\bin\\gcc.exe   -v -MD -MT CMakeFiles/cmTC_9d163.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_9d163.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_9d163.dir\\CMakeCCompilerABI.c.obj -c D:\\cmake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [clang version 22.1.6 (https://github.com/llvm/llvm-project.git fc4aad7b5db3fff421df9a9637605b9ca5667881)]
+        ignore line: [Target: i686-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/bin]
+        ignore line: [Configuration file: D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/bin/i686-w64-windows-gnu.cfg]
+        ignore line: [ (in-process)]
+        ignore line: [ "D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/bin/clang-22.exe" -cc1 -triple i686-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -fno-sized-deallocation -fno-use-init-array -target-cpu pentium4 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=D:/c_porject4/Basic-C-Language-Smart-Home-Demo/cmake-build/mingw-debug/CMakeFiles/CMakeScratch/TryCompile-6me1ss -v -fcoverage-compilation-dir=D:/c_porject4/Basic-C-Language-Smart-Home-Demo/cmake-build/mingw-debug/CMakeFiles/CMakeScratch/TryCompile-6me1ss -resource-dir D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22 -dependency-file "CMakeFiles\\\\cmTC_9d163.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_9d163.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/include -internal-isystem D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/include -internal-isystem D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/usr/include -internal-isystem D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/include -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=dwarf -faddrsig -o "CMakeFiles\\\\cmTC_9d163.dir\\\\CMakeCCompilerABI.c.obj" -x c "D:\\\\cmake\\\\share\\\\cmake-3.30\\\\Modules\\\\CMakeCCompilerABI.c"]
+        ignore line: [clang -cc1 version 22.1.6 based upon LLVM 22.1.6 default target i686-w64-mingw32]
+        ignore line: [ignoring nonexistent directory "D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/include]
+        ignore line: [ D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_9d163.exe]
+        ignore line: [D:\\cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_9d163.dir\\link.txt --verbose=1]
+        ignore line: [D:\\cmake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_9d163.dir/objects.a]
+        ignore line: [D:\\mingw\\llvm-mingw-20260519-msvcrt-i686\\llvm-mingw-20260519-msvcrt-i686\\bin\\llvm-ar.exe qc CMakeFiles\\cmTC_9d163.dir/objects.a @CMakeFiles\\cmTC_9d163.dir\\objects1.rsp]
+        ignore line: [D:\\mingw\\llvm-mingw-20260519-msvcrt-i686\\llvm-mingw-20260519-msvcrt-i686\\bin\\gcc.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_9d163.dir/objects.a -Wl --no-whole-archive -o cmTC_9d163.exe -Wl --out-implib libcmTC_9d163.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [clang version 22.1.6 (https://github.com/llvm/llvm-project.git fc4aad7b5db3fff421df9a9637605b9ca5667881)]
+        ignore line: [Target: i686-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/bin]
+        ignore line: [Configuration file: D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/bin/i686-w64-windows-gnu.cfg]
+        link line: [ "D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/bin/ld.lld" -m i386pe -Bdynamic -o cmTC_9d163.exe D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/lib/crt2.o D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/lib/crtbegin.o -LD:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/lib -LD:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/mingw/lib -LD:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib -LD:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/lib/windows -v --whole-archive "CMakeFiles\\\\cmTC_9d163.dir/objects.a" --no-whole-archive --out-implib libcmTC_9d163.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/lib/windows/libclang_rt.builtins-i386.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/lib/windows/libclang_rt.builtins-i386.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/lib/crtend.o]
+          arg [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/bin/ld.lld] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pe] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_9d163.exe] ==> ignore
+          arg [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/lib/crt2.o] ==> obj [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/lib/crt2.o]
+          arg [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/lib/crtbegin.o] ==> obj [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/lib/crtbegin.o]
+          arg [-LD:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/lib] ==> dir [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/lib]
+          arg [-LD:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/mingw/lib] ==> dir [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/mingw/lib]
+          arg [-LD:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib] ==> dir [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib]
+          arg [-LD:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/lib/windows] ==> dir [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/lib/windows]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\\\cmTC_9d163.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_9d163.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/lib/windows/libclang_rt.builtins-i386.a] ==> lib [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/lib/windows/libclang_rt.builtins-i386.a]
+          arg [-lunwind] ==> lib [unwind]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/lib/windows/libclang_rt.builtins-i386.a] ==> lib [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/lib/windows/libclang_rt.builtins-i386.a]
+          arg [-lunwind] ==> lib [unwind]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/lib/crtend.o] ==> obj [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/lib/crtend.o]
+        linker tool for 'C': D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/bin/ld.lld
+        remove lib [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/lib/windows/libclang_rt.builtins-i386.a]
+        remove lib [msvcrt]
+        remove lib [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/lib/windows/libclang_rt.builtins-i386.a]
+        remove lib [msvcrt]
+        collapse library dir [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/lib] ==> [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/lib]
+        collapse library dir [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/mingw/lib] ==> [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/mingw/lib]
+        collapse library dir [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib] ==> [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib]
+        collapse library dir [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/lib/windows] ==> [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/lib/windows]
+        implicit libs: [mingw32;unwind;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;unwind;moldname;mingwex;kernel32]
+        implicit objs: [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/lib/crt2.o;D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/lib/crtbegin.o;D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/lib/crtend.o]
+        implicit dirs: [D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/lib;D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/mingw/lib;D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib;D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/lib/windows]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/cmake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/bin/ld.lld" "-v"
+      LLD 22.1.6 (https://github.com/llvm/llvm-project.git fc4aad7b5db3fff421df9a9637605b9ca5667881) (compatible with GNU linkers)
+...

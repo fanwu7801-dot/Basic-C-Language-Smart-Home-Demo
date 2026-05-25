@@ -1,0 +1,3 @@
+D:\cmake\bin\cmake.exe -E rm -f CMakeFiles\smart_home.dir/objects.a
+D:\mingw\llvm-mingw-20260519-msvcrt-i686\llvm-mingw-20260519-msvcrt-i686\bin\llvm-ar.exe qc CMakeFiles\smart_home.dir/objects.a @CMakeFiles\smart_home.dir\objects1.rsp
+D:\mingw\llvm-mingw-20260519-msvcrt-i686\llvm-mingw-20260519-msvcrt-i686\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\smart_home.dir/objects.a -Wl,--no-whole-archive -o smart_home.exe -Wl,--out-implib,libsmart_home.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\smart_home.dir\linkLibs.rsp

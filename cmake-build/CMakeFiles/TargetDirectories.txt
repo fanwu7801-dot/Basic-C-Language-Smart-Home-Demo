@@ -1,0 +1,3 @@
+D:/c_porject4/Basic-C-Language-Smart-Home-Demo/cmake-build/CMakeFiles/smart_home.dir
+D:/c_porject4/Basic-C-Language-Smart-Home-Demo/cmake-build/CMakeFiles/edit_cache.dir
+D:/c_porject4/Basic-C-Language-Smart-Home-Demo/cmake-build/CMakeFiles/rebuild_cache.dir

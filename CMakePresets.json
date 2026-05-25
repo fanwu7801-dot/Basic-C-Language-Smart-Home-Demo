@@ -1,0 +1,44 @@
+{
+  "version": 6,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 16,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "mingw-debug",
+      "displayName": "MinGW Debug",
+      "description": "Use MinGW Makefiles with gcc (Debug)",
+      "generator": "MinGW Makefiles",
+      "binaryDir": "${sourceDir}/cmake-build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_C_COMPILER": "gcc",
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "mingw-release",
+      "displayName": "MinGW Release",
+      "description": "Use MinGW Makefiles with gcc (Release)",
+      "generator": "MinGW Makefiles",
+      "binaryDir": "${sourceDir}/cmake-build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_C_COMPILER": "gcc",
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "build-debug",
+      "displayName": "Build Debug",
+      "configurePreset": "mingw-debug"
+    },
+    {
+      "name": "build-release",
+      "displayName": "Build Release",
+      "configurePreset": "mingw-release"
+    }
+  ]
+}
