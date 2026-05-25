@@ -1,0 +1,70 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "Clang",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/include",
+						"D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/include"
+					],
+					"linkDirectories" : 
+					[
+						"D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/lib",
+						"D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/i686-w64-mingw32/mingw/lib",
+						"D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib",
+						"D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/lib/clang/22/lib/windows"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"unwind",
+						"moldname",
+						"mingwex",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"unwind",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/bin/gcc.exe",
+				"version" : "22.1.6"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "D:/mingw/llvm-mingw-20260519-msvcrt-i686/llvm-mingw-20260519-msvcrt-i686/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
